@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="col-md-5">
+			<div class="form-group">                                                                                                     
+
+				<input type="text" id="result" class="form-control" disabled>
+				<div class="row">
+					<button class="btn btn-success number">7</button>
+					<button class="btn btn-success number">8</button>
+					<button class="btn btn-success number">9</button>
+					<button class="btn btn-success action">+</button>
+				</div>
+				<div class="row">
+					<button class="btn btn-success number">4</button>
+					<button class="btn btn-success number">5</button>
+					<button class="btn btn-success number">6</button>
+					<button class="btn btn-success action">-</button>
+				</div>
+				<div class="row">
+					<button class="btn btn-success number">1</button>
+					<button class="btn btn-success number">2</button>
+					<button class="btn btn-success number">3</button>
+					<button class="btn btn-success action">*</button>
+				</div>
+				<div class="row">
+					<button class="btn btn-success number">0</button>
+					<button class="btn btn-success" onclick="Bin()">Bin</button>
+					<button class="btn btn-success" onclick="Sqrt()">Sqrt</button>
+					<button class="btn btn-success action">/</button>
+				</div>
+				<div class="row">
+					<button class="btn btn-success" onclick="Pow2()">x2</button>
+					<button class="btn btn-success" onclick="Pow3()">x3</button>
+					<button class="btn btn-success number">.</button>
+					<button class="btn btn-success " onclick="undo()"><</button>
+				</div>
+				<div class="row">
+					<button class="btn btn-success" onclick="cos()">cos</button>
+					<button class="btn btn-success" onclick="sin()">sin</button>
+					<button class="btn btn-success" onclick="tan()">tan</button>
+					<button class="btn btn-success " onclick="abs()">|x|</button>
+				</div>
+				<div class="row">
+					<button class="btn btn-success" onclick="acos()">acos</button>
+					<button class="btn btn-success" onclick="asin()">asin</button>
+					<button class="btn btn-success" onclick="atan()">atan</button>
+					<button class="btn btn-success " onclick="exp()">exp</button>
+				</div>
+				<div class="row">
+					<button class="btn btn-success" onclick="round()">round</button>
+					<button class="btn btn-success" onclick="E()">E</button>
+					<button class="btn btn-success" onclick="LN10()">ln</button>
+					<button class="btn btn-success " onclick="PI()">PI</button>
+				</div>
+
+				<div class="row">
+					<button class="btn btn-success" onclick="Log()">Log</button>
+					<button class="btn btn-success" onclick="C()">C</button>
+					<button class="btn btn-success equal" onclick="equal()">=</button>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
